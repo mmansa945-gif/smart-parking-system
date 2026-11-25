@@ -1,0 +1,45 @@
+{
+  "goal": {
+    "status": 201,
+    "response": {
+      "id": 1,
+      "name": "Emergency fund",
+      "target": 100000.0,
+      "months": 24
+    }
+  },
+  "contribution": {
+    "status": 201,
+    "response": {
+      "id": 1,
+      "name": "Emergency fund",
+      "target": 100000.0,
+      "months": 24,
+      "saved": 10000.0
+    }
+  },
+  "profile": {
+    "status": 200,
+    "response": {
+      "score": 9,
+      "risk": "medium"
+    }
+  },
+  "projection": {
+    "status": 200,
+    "response": {
+      "p10": 78166.03,
+      "median": 87127.84,
+      "p90": 97377.47,
+      "probability": 0.0515,
+      "baseline": 82000.0,
+      "disclaimer": "Illustrative estimates, not guaranteed or financial advice."
+    }
+  },
+  "monitoring": {
+    "requests": 4,
+    "errors": 0,
+    "latency_ms_total": 31.51437900000076,
+    "mean_latency_ms": 7.87859475000019
+  }
+}
